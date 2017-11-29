@@ -9,7 +9,8 @@
     <div class="main-heder__logo">
       <img src="#" alt="Nerds">
     </div>
-    <nav class="main-header__navigation">
+
+    <nav class="navigation">
       <ul class="navigation__list">
         <li class="navigation__item">
           <a class="navigation__link" href="#">Студия</a>
@@ -24,7 +25,8 @@
           <a class="navigation__link" href="#">Контакты</a>
         </li>
       </ul>
-      <ul class="navigation__basket basket">
+
+      <ul class="basket">
         <li class="basket__list">
           <a class="basket__link" href="#">Корзина</a>
         </li>
@@ -33,83 +35,100 @@
   </header>
 
   <main class="container">
-    <div class="container__order order">
-      <div class="order__menu menu">
-        <h3 class="menu__title">Веб-сайты</h3>
+    <div class="order">
+      <div class="order__menu">
+        <h3 class="order__title">Веб-сайты</h3>
         <img src="img/web" alt="web">
-        <p class="menu__text">Мир никогда не будет прежним поссле того как увидит ваш сайт!</p>
-        <a class="menu__button - red" href="#">Заказать</a>
+        <p class="order__text">Мир никогда не будет прежним поссле того как увидит ваш сайт!</p>
+        <a class="order__button -red" href="#">Заказать</a>
       </div>
       <div class="order__menu">
-        <h3 class="order-title">Приложения</h3>
+        <h3 class="order__title">Приложения</h3>
         <img src="img/app" alt="app">
         <p class="order__text">Покорите топ-10 приложений в App-Store и Google Play</p>
         <a class="order__button -green" href="#">Заказать</a>
       </div>
       <div class="order__menu">
-        <h3 class="menu__title">Презентации</h3>
+        <h3 class="order__title">Презентации</h3>
         <img src="img/presentation" alt="presentation">
-        <p class="menu__text">Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a class="menu__button -yellow" href="#">Заказать</a>
+        <p class="order__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a class="order__button -yellow" href="#">Заказать</a>
       </div>
     </div>
 
-    <div class="container__about about">
-      <section class="about__discription discription">
+    <div class="wrapper">
+
+      <section class="discription">
         <h1 class="discription__title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h1>
         <p class="discription__text">Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем   не покладая рук, как роботы.</p>
         <p class="discription__word"><b>выполняем заказы на разработку:</b></p>
         <ul class="discription__list">
-          <li class="discription__list__item">Веб-сайтов любой сложности</li>
-          <li class="discription__list__item">Мобильных приложений для iOS и Android</li>
-          <li class="discription__list__item">Слайдшоу и видео для корпоративных презентаций</li>
+          <li class="discription__item">Веб-сайтов любой сложности</li>
+          <li class="discription__item">Мобильных приложений для iOS и Android</li>
+          <li class="discription__item">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
       </section>
-      <section class="container__features features">
+
+      <section class="features">
         <img src="features__logo">
         <p class="features__text"><b>С 2004 года любим точность во всем:</b></p>
         <ul class="features__list">
-          <li class="features__list__item"><span>146%</span>Уровень самоотдачи</li>
-          <li class="features__list__item"><span>100%</span>Соблюдение сроков</li>
-          <li class="features__list__item"><span>50%</span>Минимальная предоплата</li>
+          <li class="features__item">
+            <span>146%</span>
+            Уровень самоотдачи
+          </li>
+          <li class="features__item">
+            <span>100%</span>
+            Соблюдение сроков
+          </li>
+          <li class="features__item">
+            <span>50%</span>
+            Минимальная предоплата
+          </li>
         </ul>
       </section>
+
     </div>
 
-    <div class="container__brands brands">
+    <div class="brands">
       <a class="brands__link" href="#">
-        <img src="htmlacademy" alt="htmlacademy"></a>
+        <img src="htmlacademy" alt="htmlacademy">
+      </a>
       <a class="brands__link" href="#">
-        <img src="barbershop" alt="barbershop"></a>
+        <img src="barbershop" alt="barbershop">
+      </a>
       <a class="brands__link" href="#">
-        <img src="pink" alt="pink"></a>
+        <img src="pink" alt="pink">
+      </a>
       <a class="brands__link" href="#">
-        <img src="mishka" alt="mishka"></a>
+        <img src="mishka" alt="mishka">
+      </a>
     </div>
 
-    <div class="container__map">
-      <section class="map__pic">
-        <img src="map" alt="карта">
-      </section>
-      <section class="map__contacts contacts">
+    <div class="map">
+      <section class="contacts">
         <p class="contacts__title"><b>Nerds design studio</b></p>
         <p class="contacts__text">191186 Санкт-Петербург, ул.Конюшенная д. 19/8</p>
         <p class="contacts__text">тел. +7(812)275-75-75</p>
         <a href="contacts__rewrite">Напишите Нам</a>
       </section>
     </div>
+
+
   </main>
 
   <footer class="main-footer">
-    <section class="main-footer__socials socials" >
-      <a class="socials__link" href="#"></a>
-      <a class="socials__link" href="#"></a>
-      <a class="socials__link" href="#"></a>
-    <div class="main-footer">
-      <h2 class="footer__title">Давайте дружить, это выгодно!</h2>
-      <p class="main-footer__text">Скидка 10% для друзей из социальных сетей.</p>
-    </div>
+    <section class="socials" >
+      <a class="socials__link socials__link--vk" href="#">Мы в Вконтакте</a>
+      <a class="socials__link socials__link--fb" href="#">Мы в Фейсбуке</a>
+      <a class="socials__link socials__link--in" href="#">Мы в Инстаграмм</a>
     </section>
+
+    <div class="text">
+      <h2 class="text__title">Давайте дружить, это выгодно!</h2>
+      <p class="text__content">Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+
   </footer>
 </body>
 </html>
