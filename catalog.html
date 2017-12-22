@@ -32,7 +32,7 @@
     </nav>
   </header>
 
-  <h1>Магазин готовых шаблонов</h1>
+  <h1 class="title">Магазин готовых шаблонов</h1>
 
   <main class="filter">
     <form class="form" action="index.html" method="post">
@@ -42,39 +42,41 @@
         <input type="range" min="0" max="15000" step="100" value="7500">
       </div>      Бегунок   !---------->
 
-      <div class="form__discr">
+      <div class="form__group">
         <h2 class="form__title">сетка:</h2>
-        <label>
+        <label class="form_point">
           <input type="radio" name="type" value="adaptiv">
           <span>Адаптивная</span>
         </label>
-        <label>
+        <label class="form_point">
           <input type="radio" name="type" value="fixed">
           <span>Фиксированная</span>
         </label>
-        <label>
+        <label class="form_point">
           <input type="radio" name="type" value="rubber">
           <span>Резиновая</span>
         </label>
       </div>
 
-      <div class="form__discr">
+      <div class="form__group">
         <h2 class="form__title">особенности:</h2>
-        <label>
+        <label class="form_point">
           <input type="checkbox" name="features" id="slider">
           <span>Слайдер</span>
         </label>
-        <label>
+        <label class="form_point">
           <input type="checkbox" name="features" id="block-features">
           <span>Блок преимуществ</span>
         </label>
-        <label>
+        <label class="form_point">
           <input type="checkbox" name="features" id="news">
           <span>Новости</span>
-        <label>
+        </label>
+        <label class="form_point">
           <input type="checkbox" name="features" id="gallery">
           <span>Галерея</span>
         </label>
+        <label class="form_point">
           <input type="checkbox" name="features" id="basket">
           <span>Корзина</span>
         </label>
@@ -86,28 +88,21 @@
 
       <div class="form__sort">
         <h2 class="form__title">сортировать:</h2>
-        <label class="form__price">
+        <label class="form__label">
           <input type="radio" name="variant" value="price">
           <span>по цене</span>
         </label>
-        <label class="form__type">
+        <label class="form__label">
           <input type="radio" name="variant" value="type">
           <span>по типу</span>
         </label>
-        <label class="form__name">
+        <label class="form__label">
           <input type="radio" name="variant" value="name">
           <span>по названию</span>
         </label>
-        <button class="form__btn-down" type="button" name="button">
-          <a href="#">
-            <img src="#" alt="по убыванию">
-          </a>
-        </button>
-        <button class="form__btn-up" type="button" name="button">
-          <a href="#">
-            <img src="" alt="по возрастанию">
-          </a>
-        </button>
+        <button class="form__btn" type="button" name="button" value="up">
+        <button class="form__btn" type="button" name="button" value="down">
+      </div>
     </form>
 
     <article class="item">
@@ -118,10 +113,9 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
@@ -133,10 +127,9 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
@@ -148,10 +141,9 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
@@ -163,10 +155,9 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
@@ -178,10 +169,9 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
@@ -193,38 +183,37 @@
         <img src="#" alt="sedona">
       </div>
       <div class="item__desc">
-        <h3>sedona</h3>
+        <h3 class="item_title">sedona</h3>
         <p>информационнй сайт для туристов</p>
-          <button class="item__price" type="button" name="button"> 9900 руб.
-          </button>
+          <button class="item__price" type="button" value="9900 руб.">
       </div>
     </article>
 
     <div class="wrapper">
-      <ul class="paginator">
-        <a href="#">
-          <li class="paginator_num"> 1</li>
-        </a>
-        <a href="#">
-          <li class="paginator_num"> 2</li>
-        </a>
-        <a href="#">
-          <li class="paginator_num"> 3</li>
-        </a>
-        <a href="#">
-          <li class="paginator__next"> Следущая</li>
-        </a>
+      <ul class="pagination">
+          <li class="pagination__item">
+            <a class="pagination_link" href="#">1</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination_link" href="#">2</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination_link" href="#">3</a>
+          </li>
+          <li class="pagination__item  pagination__item--next">
+            <a href="#">Следущая</a>
+          </li>
       </ul>
     </div>
 
     <div class="map">
       <section class="contacts">
-        <p class="contacts__title"><b>Nerds design studio</b></p>
+        <h2 class="contacts__title"><b>Nerds design studio</b></h2>
         <p class="contacts__text">191186 Санкт-Петербург, ул.Конюшенная д. 19/8</p>
-        <p class="contacts__text">тел. +7(812)275-75-75</p>
+        <a class="contacts__text" href="tel:78122757575"></a>
         <a href="contacts__rewrite">Напишите Нам</a>
       </section>
-    </div>    
+    </div>
   </main>
 
   <footer class="main-footer">
